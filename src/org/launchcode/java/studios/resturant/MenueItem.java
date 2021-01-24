@@ -37,21 +37,7 @@ public class MenueItem {
         this.category = category;
     }
 
-    public java.lang.String getPictureLocation() {
-        return pictureLocation;
-    }
 
-    public void setPictureLocation(java.lang.String pictureLocation) {
-        this.pictureLocation = pictureLocation;
-    }
-
-    public int getCalories() {
-        return calories;
-    }
-
-    public void setCalories(int calories) {
-        this.calories = calories;
-    }
     public boolean isNew(){
         return isNew;
     }
@@ -59,7 +45,7 @@ public class MenueItem {
         return dateCreated;
     }
     public String toString (){
-        return name + "\n" + description + "\n" + price
+        return name + "\n" + description + "\n" + price;
     }
 
     @Override
@@ -75,4 +61,4 @@ public class MenueItem {
         return Objects.hash(name, category);
     }
 }
-}
+
