@@ -19,7 +19,7 @@ public class SmartPhoneTest {
         assertEquals(5000, this.mySmartPhone.getScreenWidth());
         assertEquals(4500, this.mySmartPhone.getScreenHeight());
         assertEquals("2021", this.mySmartPhone.getManufactureYear());
-        assertEquals(true, this.mySmartPhone.getIsConnectedToG5());
+        assertEquals(true, this.mySmartPhone.isConnected5G());
     }
 
 
